@@ -1,0 +1,124 @@
+.form-hero {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3e9eb;
+  border-radius: 20px;
+  position: relative;
+  top: 7rem;
+  padding: 2rem 4rem;
+  box-shadow: 2px 2px 18px rgb(12 45 54/ 15%);
+}
+.back-home i {
+  color: #f44d66;
+}
+
+.logIn-form form {
+  margin: 20px 0 20px;
+  border-radius: 25px;
+  color: white;
+  position: relative;
+}
+.logIn-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #314646;
+}
+.logIn-heading button {
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  border-radius: 40px ;
+  font-size: 1.5rem;
+  color: #314646;
+  transition: step-start 0.3s ease;
+  background-color: transparent;
+}
+.logIn-heading button:hover{
+  cursor: pointer;
+  color: #314646;
+  border-top: 2px solid #f44d66;
+  border-bottom: 2px solid #f44d66;
+  
+}
+.logIn-heading button.active{
+  background-color: #ecd4d9;
+  border-top: 2px solid #f44d66;
+  border-bottom: 2px solid #f44d66;
+  backdrop-filter: blur(20px);
+}
+@media (max-width: 640px) {
+  .form-hero {
+    padding: 12px 2px 12px 2px;
+  }
+  
+  .logIn-heading button{
+    font-size: 1rem;
+    padding: 12px 5px 12px 5px;  
+  }
+  input {
+    width: 20.5rem;
+    height: 2.5rem;
+  }
+}
+input {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 10px 10px 35px;
+  margin: 12px 0px 12px;
+  font-size: 1rem;
+}
+.logIn-form .icon {
+  position: absolute;
+  color: #f44d66;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: larger;
+  background-color: white;
+}
+.logIn-btn-submit {
+  text-align: center;
+  justify-content: center;
+}
+.logIn-btn-submit input {
+  background-color: #f44d66;
+  font-weight: 500;
+  width: 15rem;
+  color: aliceblue;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: scale 0.2s ease;
+}
+.logIn-btn-submit input:hover{
+  scale: 1.2;
+}
+.logIn-form-email,
+.logIn-form-number {
+  margin: 0.5rem;
+  justify-content: center;
+}
+.logIn-form-number{
+  display: none;
+}
+
+.logIn-form a {
+  text-decoration: none;
+  color: #314646;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+.logIn-form a:hover {
+  color: #f44d66;
+  text-decoration: underline;
+}

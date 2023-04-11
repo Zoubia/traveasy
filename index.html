@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description and keywords -->
+    <meta name="description" content="Explore the Indian Tourism, to have an enjoyable 
+    travel experience. Get all the information about tourist attractions,
+    travel destinations, Indian food and learn about the cultural and historical
+    significances by a single scan.">
+    <meta name="Keywords" content="India tourism, India travel guide, Tourism guide,
+    Travel in India, Tourist attractions in India, Indian food, QR Scanner travel guide">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img\favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="css\popUps.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+
+    <!-- Title -->
+    <title>Major Site</title>
+</head>
+
+<body>
+    <div class="nav_hero">
+        <!-- Header(LOGO and Navbar) -->
+        <header id="navbar">
+            <div class="nav__bar">
+                <div class="nav__logo"><a href="index.html">
+                        <h1>
+                            TravEasy
+                        </h1>
+                    </a></div>
+                <ul class="nav__list">
+                    <li class="nav_items">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#explore-more">Explore</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="scanner.html">Scanner</a>
+                    </li>
+                </ul>
+                <a href="LogIn.html" class="action_btn">Log In</a>
+                <div class="toggle__btn">
+                    <i class="fa-regular fa-bars fa-lg"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu ">
+                <li class="nav_items">
+                    <a href="">Home</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#about">About</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#explore-more">Explore</a>
+                </li>
+                <li class="nav_items">
+                    <a href="scanner.html">Scanner</a>
+                </li>
+                <a href="LogIn.html" class="action_btn">Log In</a>
+            </div>
+
+        </header>
+        <section class="home-hero container" id="home-hero">
+
+            <div class="hero-cont">
+                <div class="hero_description">
+                    <h1>Embrace <br> Exploration</h1>
+                    <br>
+                    <!-- <p>Audio tour guide with real-time audio streaming on your smartphone, 
+                    Make your tour easier
+                </p> -->
+                    <p>Discover must visit tourist destinations <br />and
+                        enjoy your visit with audio tour guide system.
+                    </p>
+                </div>
+                <div class="hero_btn">
+                    <button class="hero_btn-1"><a href="scanner.html">Scanner</a></button>
+                    <button class="hero_btn-2"><a href="#explore">Explore</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="about container" id="about">
+            <div class="about-img">
+                <img src="img\Lodi Gardens.png" alt="">
+            </div>
+            <div class="about-text">
+                <span>About Us</span>
+                <h3>Audio Tour Guide system <br></h3>
+                <p>In the global economy, tourism is one of the most noticeable and growing sectors. This sector plays an important role in boosting a nation’s economy. Tourism can be defined as an amalgam of three main components; attractions of the destination, the facilities of destination and the accessibility of it. </p>
+                <p>Tourism is a very important aspect not only for a country’s economy but also for their global standing. Tourism is one of the...</p>
+                <button class="more-btn"><a href="#">Learn More</a></button>
+            </div>
+        </section>
+        <!-- Explore -->
+        <section class="explore container" id="explore">
+            <!-- Box 1 -->
+            <div class="box popup-div">
+                <a href=""><i class="fa-solid fa-qrcode "></i></a>
+                <h3>QR based Audio Guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quidem!</p>
+            </div>
+            <!-- Box 2 -->
+            <div class="box popup-div">
+                <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                <h3>Nearby Tourist Attractions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quidem!</p>
+            </div>
+            <!-- Box 3 -->
+            <div class="box popup-div">
+                <a href=""><i class="fa-solid fa-shield-heart"></i></a>
+                <h3>Book your tickets Easily</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quidem!</p>
+            </div>
+        </section>
+        <!-- Explore location and Audio -->
+        <section class="explore-more container">
+
+            <div class="heading">
+                <span>Top Rated</span>
+                <h2>Must Visit Tourist Attractions</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque?
+                </p>
+            </div>
+            <div class="explore-more-cont container" id="explore-more">
+                <!-- Box 1 -->
+                <!-- <div class="modal_bg_cover">
+                    <div class="modal_cont">
+                        <div class="modal_header">
+                            
+                            <span class="modal_c"></span>
+                        </div>
+                        <div class="modal_body">
+                            <div class="mb_scroll">
+
+                            </div>
+                        </div>
+                        <div class="modal_footer">
+
+                        </div>
+                    </div>
+                </div> -->
+                <div class="box popup-div">
+                    <img src="img\Locations\India-Gate.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>India Gate</h3>
+                            <p>
+                                Delhi
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>India Gate</h3>" data-description="India Gate is also regarded as the All India War Memorial. As the name implies, this monument, which is located along Rajpath in New Delhi, India, represents triumph during a battle.
+                            <br> The monument is a homage to the 70,000 British Indian Army personnel who died in World War I(1914-1918) 13,300 martyrs, including British servicemen, officers, and soldiers, have their names etched on the memorial.
+                            <br> The foundation of this war memorial was laid in the year 1921 in the month of February. The ceremony was attended by the Duke of Connaught, Delegates and Officers of the British Indian Army, Imperial Service Troops and the Viceroy. The construction of India Gate was a project initiated under the Imperial War Graves Commission, which was famous for building war tombstones of the era. 
+                            ">
+                            <i class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\RedFort.png" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Red Fort</h3>
+                            <p>
+                                Delhi
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Red Fort</h3>"
+                            data-description="The Red Fort in Delhi is an evergreen attraction that has stood the test of time and fascinates travelers all year along. This historic fort, also known as Lal Qila, with over 370 years of history will remind you of the grandeur of the Mughal Empire.
+                            The Red Fort was built by none other than the Mughal Emperor Shah Jahan to serve as the palace fort for his capital Shahjahanabad. He commissioned the construction of the fort by the River Yamuna when he decided to shift his capital to Delhi from Agra. The construction, which started in 1638, took over 8 years to complete. The structure was originally named Qila-i-Mubarak, which means ‘the Blessed Fort’. During its history of over three centuries, the fort saw many occupants, including Aurangzeb, Jahandar Shah, Muhammad Shah, and Bahadur Shah II, among others.
+                            The Red Fort underwent massive destruction in 1739 when the Persian ruler Nadir Shan invaded the city and plundered the fort of many valuable artifacts, including the Peacock Throne. Later, during the 1857 Revolt against the British, the marble structures of the fort were also destroyed.
+                            "><i class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Taj-mahal-Agra.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Taj Mahal</h3>
+                            <p>
+                                Agra
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Taj Mahal</h3>" data-description="One of the seven wonders of the world, Taj Mahal is located on the banks of River Yamuna in Agra. It was built by the Mughal Emperor Shah Jahan as a memorial for his third wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan himself. Constructed entirely out of white marble in the 17th century, Taj Mahal is one of the most beautiful monuments in the world. Every year visitors numbering more than the entire population of Agra pass through the magnificent gates to catch a glimpse of this breathtaking monument! 
+                            The Taj Mahal was built as a mausoleum by Shah Jahan for his wife Mumtaz Mahal, who died while giving birth to their 14th child in 1631. Her death left the emperor completely heartbroken, and his hair is said to have turned grey overnight. The construction of the Taj began in 1632. Th main building was completed in eight years, but the whole complex was not completed until 1653. Soon after the construction was completed, Shah Jahan was overthrown by his son Aurangzeb and imprisoned in the Agra Fort. For the rest of his life, he could only gaze at his wondrous creation through a window. Shah Jahan died in 1666, after which his mortal remains were buried here alongside Mumtaz. 
+                            
+                            Over 20,000 people from all over Indian and Central Asia worked on this striking building. Specialists were brought from as far away as Europe who produced the beautiful marble screens and marble inlay (pietra dura) which is made of thousands of semi precious stones. Taj Mahal was designated as a World Heritage Site by UNESCO in 1983. It looks as pristine today as it was first constructed. The monument underwent a massive restoration project in the early 20th century. 
+                            "><i class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="explore-more-cont container">
+                <!-- Box 4 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Umaid-Bhavan-Jodhpur.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Umaid Bhawan</h3>
+                            <p>
+                                Jodhpur
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Umaid Bhawan</h3>"
+                            data-description="Umaid Bhawan Palace Jodhpur is a marvel built by Maharaja Umaid Singh of Rathore Dynasty. The youngest palace of India is an architectural splendor, marvelous heritage hotel of Jodhpur and a true royal experience. Built on sprawling grounds of 26 acres, the royal residence is perched high above the Blue City of Rajasthan.
+                            Only 4 kilometers from the Jodhpur Airport and 5 kilometers from the Jodhpur Railway Station, the Umaid Bhawan Palace Jodhpur is a magnificent crown of the desert city. Also known as Chittar Palace, interesting stories are hidden in the premises of the golden-yellow monument. The glorious heritage and hospitality is kept alive by the palace, which is pampering guests with exquisite delights.">
+                            <i class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Box 5 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Hawa-mashal-jaipur.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Hawa Mahal</h3>
+                            <p>
+                                Jaipur
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Hawa Mahal</h3>"
+                            data-description="Hawa Mahal, Jaipur’s most iconic landmark, is no ordinary piece of architecture. It is a beguiling, 5-storied building dating back to the 18th century, which, with its lacy grillworks and honey-comb facade, renders city dwellers and travellers an extraordinary visual spectacle. From its intricate decors to the panoramas visible from here, Hawa Mahal is a popular landmark that demands a visit at least one in life. The alluring Hawa Mahal night view - when the moonlight shines on the city, is an experience in itself that leaves visitors awestruck.
+                            The history of Hawa Mahal, the palace of winds, is quite intriguing. It was built in 1799 by Maharaja Sawai Pratap Singh for the court harem so that they could witness the royal processions and the street life. The exquisite pink and red sandstone ‘mahal’ stand out for its striking architecture, and the beautiful ‘jhaali’ works on its 953 windows. 
+                            ">
+                            <i class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+
+                <!-- Box 6 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Gateway_of_India.png" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Gateway of India</h3>
+                            <p>
+                                Mumbai
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Chittorgarh-Fort</h3>"
+                            data-description="The Gateway of India was constructed in 1911 to honor the visit and the landing of Queen Mary and King George V at Apollo Bundar. The grand arch monument was designed by a Scottish architect named George Wittet while Sir George Clarke, who was serving as the Governor of Bombay during those times, laid the foundation stone in 1913. Construction of the monument began in 1915, which continued for almost 10 years. On 4th December 1924, the monument was inaugurated by Rufus Isaacs, who was the then Viceroy of India.
+                            After the Gateway was constructed, it served as the ceremonial entry point to India for Viceroys, new governors of Bombay Presidency, and other high-ranking officials. On 25th August 2003, a bomb blast occurred near the Gateway that left bloody trails in front of the monument. The structure, however, didn’t suffer any damage. 
+                            "><i
+                                class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="heading">
+                <h2>Visit Again</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, doloremque?
+                </p>
+            </div>
+            <div class="explore-more-cont container">
+                <!-- Box 1 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Victoria-Memorial.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Victoria Memorial</h3>
+                            <p>
+                                Kolkata
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Chittorgarh-Fort</h3>"
+                            data-description="The Victoria Memorial, a huge monument made of white marble located in the heart of the City of Joy, Kolkata (erstwhile Calcutta) in West Bengal, India is one of the most famous monuments in West Bengal that has become a museum and popular tourist spot of the state. A brainchild of George Curzon, 1st Marquess Curzon of Kedleston and Viceroy of India, this monument epitomising beauty and elegance was dedicated to the memory of Queen Victoria (1819–1901). This grand and exquisite memorial not only stands as reminiscence to the rule of British Crown in the Indian subcontinent but also stands out as an excellent architectural gem in Indo-Saracenic revivalist style. It is a must visit tourist destination for first time visitors to experience the essence of Victorian era in the midst of the bustling metro city of Kolkata."><i
+                                class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Agra-Fort.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Agra Fort</h3>
+                            <p>
+                                Agra
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Agra Fort</h3>"
+                            data-description="Akbar was the third Mughal emperor and undoubtedly the greatest. He was crowned the Mughal ruler in 1556 at the tender age of 14, when his father Humayun died suddenly. After Akbar consolidated his rule, he began constructing the Agra Fort, which coincided with the building of Humayun's tomb in Delhi. Akbar began the construction of this massive fort made of red sandstone on the banks of the Yamuna in 1565. The fort was ready by 1571, though additions were made up until the rule of Shahjahan, who was Akbar's grandson. During the time of Akbar, the fort mainly served military purpose, while by the time of Shahjahan it also served as a palace and court.
+                            The fort's colossal double walls rise 20 m in height and measure 2.5 km in circumference. The fort is surrounded by a moat. The lofty battlements of the Agra fort cast its protective shadow over the far stretching mansions of nobles and princes built along the riverfront. The magnificent towers, bastions and ramparts and majestic gateways symbolized the confidence and power of the third Mughal emperor. The fort contains splendid palaces both in red sandstone and white marble built by two generations of prolific builders, Akbar and later on by Jahangir and Shahjahan. Of the nearly 500 Akbari buildings built in the Bengal and Gujarati traditions, only a few have survived, arrayed in a band on the riverfront. 
+                            "><i
+                                class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="box popup-div">
+                    <img src="img\Locations\Chittorgarh-Fort.jpg" alt="">
+
+                    <div class="cont">
+                        <div class="location_text">
+                            <h3>Chittorgarh Fort</h3>
+                            <p>
+                                Rajasthan
+                            </p>
+                        </div>
+                        <a href="#explore-more" class="location_info" data-title="<h3>Chittorgarh Fort</h3>"
+                            data-description="Built by local Maurya rulers (often confused with imperial Maurya Rulers) in 7th century A.D, the Chittorgarh Fort in Rajasthan is one of the largest forts in India. The Chittorgarh Fort, plainly known as Chittor is spread majestically over a hill of 590 feet in height and is spread across 692 acres of land is a fine example of the popular Rajput architecture. The imposing structure of the fort has many gateways built by the later rulers of the Maurya clan. Chittorgarh Fort was previously the capital of Mewar and is now situated in the city of Chittorgarh. Chittorgarh Fort reverberates with tales of heroism and sacrifice and displays the Rajput culture and values in the real sense. Owing to its magnificent edifice, the Chittorgarh Fort was declared a UNESCO's World Heritage Site in the year 2013.
+                            There is a long road of 1 km that leads to the Chittorgarh Fort and is quite steep. It is often considered to be the pride of the state as there are many historical sacrifices related to it. Chittorgarh Fort is also called the Water Fort as it had 84 water bodies once, but now there are only 22 of them left. The two major attractions of the fort are the towers Vijay Stambh and Kirti Stambh. Vijay Stambh refers to the tower of victory and the Kirti Stambh means tower of fame. The towers are illuminated in the evening and it looks even more beautiful. Apart from the towers, there are many palaces and temples within the premises of the fort, most notable being Meera Temple. 
+                            "><i
+                                class="fa-regular fa-file-lines"></i></a>
+                        <a href="#" class="location_audio"><i class="fa-solid fa-volume-high"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="modal_bg_cover">
+                    <div class="modal_cont">
+                        <div class="modal_header">
+
+                            <span class="modal_c"></span>
+                        </div>
+                        <div class="modal_body">
+                            <div class="mb_scroll">
+
+                            </div>
+                        </div>
+                        <div class="modal_footer">
+
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+
+
+
+
+        <section class="srch_bar container">
+            <div class="srch-cont">
+                <h2>Search Location</h2>
+                <p>Gather information about the location <br>before
+                    planning your tour, for an enjoyable experience</p>
+                <form>
+                    <input type="text" id="search-item" placeholder="Search Locations">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+        </section>
+        <!-- <footer>
+            
+        </footer> -->
+    </div>
+
+
+
+
+
+
+
+    <!-- Main JS Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js\main.js"></script>
+</body>
+
+</html>
