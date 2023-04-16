@@ -40,19 +40,15 @@
   transition: step-start 0.3s ease;
   background-color: transparent;
 }
-.logIn-heading button:hover{
-  cursor: pointer;
-  color: #314646;
-  border-top: 2px solid #f44d66;
-  border-bottom: 2px solid #f44d66;
-  
-}
+
 .logIn-heading button.active{
   background-color: #ecd4d9;
   border-top: 2px solid #f44d66;
   border-bottom: 2px solid #f44d66;
   backdrop-filter: blur(20px);
+  width: 15rem;
 }
+
 @media (max-width: 640px) {
   .form-hero {
     padding: 12px 2px 12px 2px;
@@ -90,16 +86,20 @@ input {
   text-align: center;
   justify-content: center;
 }
-.logIn-btn-submit input {
+.logIn-btn-submit button {
   background-color: #f44d66;
   font-weight: 500;
-  width: 15rem;
+  width: 10rem;
   color: aliceblue;
-  padding-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  margin-top: 15px;
   cursor: pointer;
   transition: scale 0.2s ease;
 }
-.logIn-btn-submit input:hover{
+.logIn-btn-submit button:hover{
   scale: 1.2;
 }
 .logIn-form-email,

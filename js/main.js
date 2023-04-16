@@ -25,17 +25,17 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-//Jquery for logIn
-$(document).ready(function () {
-  $("#with-email").on("click", function () {
-    $("#logIn-form-email").show();
-    $("#logIn-form-number").hide();
-  });
-  $("#with-number").on("click", function () {
-    $("#logIn-form-email").hide();
-    $("#logIn-form-number").show();
-  });
-});
+// //Jquery for logIn
+// $(document).ready(function () {
+//   $("#with-email").on("click", function () {
+//     $("#logIn-form-email").show();
+//     $("#logIn-form-number").hide();
+//   });
+//   $("#with-number").on("click", function () {
+//     $("#logIn-form-email").hide();
+//     $("#logIn-form-number").show();
+//   });
+// });
 //for active logIn form
 var header = document.getElementsByClassName("logIn-heading");
 var logHead = document.getElementsByClassName("logHead");

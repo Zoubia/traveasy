@@ -1,3 +1,7 @@
+<?php
+include("connect.php")
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +59,7 @@
                     <a href="scanner.html">Scanner</a>
                 </li>
             </ul>
-            <a href="LogIn.html" class="action_btn">Log In</a>
+            <a href="logIn.html" class="action_btn">Log In</a>
             <div class="toggle__btn">
                 <a href="index.html" class="back-home"><i class="fa-solid fa-house"></i></a>
             </div>
@@ -64,40 +68,33 @@
         <section class="form-hero ">
             <div class="logIn-form">
                 <div class="logIn-heading">
-                    <button onclick="" class="with-email active logHead" id="with-email">Login with email</button>
-                    <button onclick="" class="with-number logHead" id="with-number">Login with number</button>
+                    <button onclick="" class="with-email active logHead" id="with-email">Login</button>
+                    
                 </div>
                 <div class="logIn-form-email" id="logIn-form-email">
-                    <form action="">
+                    <form action="" method="POST">
                         <div class="from-inp">
                             <i class="fa-solid fa-at icon"></i>
-                            <input class="Field" type="text" id="inp-mail " placeholder="Email" inputmode="email">
-
-
-                            <i class="fa-solid fa-key icon"></i>
-                            <input class="Field" type="password" id="password" placeholder="Enter Password">
-                        </div>
-
-                        <a href=""><span>Forget password?</span></a>
-                    </form>
-                </div>
-                <div class="logIn-form-number" id="logIn-form-number">
-                    <form action="">
-                        <div class="from-inp">
+                            <input class="Field" type="text" id="inp-mail " placeholder="Email" inputmode="email" name="email">
+                            
                             <i class="fa-solid fa-phone icon"></i>
                             <input class="Field" type="text" id="inp-num" placeholder="Mobile Number"
-                                inputmode="numeric">
+                                inputmode="numeric" name="number">
 
                             <i class="fa-solid fa-key icon"></i>
-                            <input class="Field" type="password" id="password" placeholder="Enter Password">
+                            <input class="Field" type="password" id="password" placeholder="Enter Password" name="password">
                         </div>
 
-                        <a href=""><span>Forget password?</span></a>
+                        <a href=""><span>Register for new account?</span></a>
+
+                        <div class="logIn-btn-submit">
+                            <button type="submit" name="submit" value="login" id="loginBtn">Submit</button>
+                        </div>
                     </form>
                 </div>
-                <div class="logIn-btn-submit">
-                    <input type="button" value="Submit">
-                </div>
+                
+                
+                
 
             </div>
 

@@ -1,15 +1,24 @@
 {
-  "name": "traveasy",
+  "name": "zoubia",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's and amazing travel website with QR Audio Guide",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "\"Zoubia\"",
   "license": "ISC",
   "dependencies": {
     "html5-qrcode": "^2.3.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoubia/traveasy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zoubia/traveasy/issues"
+  },
+  "homepage": "https://github.com/Zoubia/traveasy#readme"
 }
